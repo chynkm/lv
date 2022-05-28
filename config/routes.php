@@ -20,3 +20,9 @@ return function (App $app) {
 // POST app.domain/blog/ - create the blog post
 // POST app.domain/blog/:id - update the blog post with the id
 // DELETE app.domain/blog/:id - delete the blog with the id
+//
+// Create a document
+// - middleware for security
+// - API rate limiting
+// - docker
+// - syntactic checker
